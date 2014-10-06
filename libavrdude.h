@@ -360,7 +360,7 @@ enum {
 #define PIN_MASK    (UINT_MAX>>1)
 #define PIN_INVERSE (~(PIN_MASK))	/* flag for inverted pin in serbb */
 #define PIN_MIN     0   /* smallest allowed pin number */
-#define PIN_MAX     31  /* largest allowed pin number */
+#define PIN_MAX     255  /* largest allowed pin number */
 
 #ifdef HAVE_LINUXGPIO
 /* Embedded systems might have a lot more gpio than only 0-31 */
